@@ -12,7 +12,6 @@ from mgc_python_package import unreleased
 def main():
    workshops = unreleased()
    logging.info(workshops)
-   logging.debug(workshops)
 
 logging.basicConfig(level=logging.DEBUG)
 # execute everything in the block if and only if this file is executed as main
